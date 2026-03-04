@@ -8,3 +8,22 @@
     display: block;
     font-size: 30px;
 }
+
+/*
+=========================================================
+🌟 Evidenziare la terza stat card
+=========================================================
+*/
+.stats-grid:last-child * {
+    background: linear-gradient(135deg, #1e90ff, #8e4585);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.stats-container:last-child {
+    padding: 0;
+}
+
+/* Dovrebbe togliermi il padding del div (?)
