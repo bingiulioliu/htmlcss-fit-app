@@ -65,3 +65,25 @@ article:hover {
 .exercise-item:nth-child(even)::before {
     content: "⚡";
 }
+
+/*
+=========================================================
+7-8. 🎯 Focus sui campi input
+=========================================================
+*/
+input{
+    transition: box-shadow 0.5s ease;
+    box-shadow: 0 rgb(93, 93, 238);
+}
+select{
+    transition: box-shadow 0.5s ease;
+    box-shadow: 0 rgb(93, 93, 238);
+}
+input:focus {
+    border: 3px solid blue;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 67);
+}
+select:focus {
+    border: 3px solid blue;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 67);
+}
