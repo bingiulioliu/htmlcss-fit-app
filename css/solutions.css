@@ -43,3 +43,16 @@ article:hover {
     border-left: 5px solid orange;
 }
 
+/*
+=========================================================
+🟢 Bordi verdi per primo e ultimo esercizio
+=========================================================
+*/
+.exercise-item:first-child {
+    border-left: 5px solid green;
+    background-color: rgb(232, 254, 232);
+}
+.exercise-item:last-child {
+    border-left: 5px solid green;
+    background-color: rgb(232, 254, 232);
+}
