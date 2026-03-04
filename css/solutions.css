@@ -1,0 +1,10 @@
+/*
+=========================================================
+🔥 (\xF0) Icona fuoco nella prima stat card
+=========================================================
+*/
+.stats-grid:first-child::before {
+    content: "🔥";
+    display: block;
+    font-size: 30px;
+}
