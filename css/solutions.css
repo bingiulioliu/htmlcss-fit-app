@@ -122,8 +122,17 @@ select:focus {
 11-12. 🧭 Migliorie alla navigazione
 =========================================================
 */
-
-
+nav a:hover *{
+    background-color: #1e90ff;
+    
+}
+nav a:active {
+    background-color: #1e90ff;
+    
+}
+nav a:first-child {
+    background-color: #1e90ff;
+}
 /*
 =========================================================
 13. 💭 Virgolette alla citazione
