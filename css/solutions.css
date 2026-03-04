@@ -123,18 +123,39 @@ select:focus {
 =========================================================
 */
 nav a:hover *{
-    background-color: #1e90ff;
+    background-color: #012c5b;
+    color: #1e90ff;
     
 }
 nav a:active {
-    background-color: #1e90ff;
+    background-color: #000b17;
+    color: #1e90ff;
     
 }
 nav a:first-child {
     background-color: #1e90ff;
 }
+
 /*
 =========================================================
 13. 💭 Virgolette alla citazione
 =========================================================
 */
+.quote-box::before {
+    content: "\201C";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(70%, 10%);
+    font-size: 50px;
+    opacity: 50%;
+}
+.quote-box::after {
+    content: "\201D";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(-70%, -10%);
+    font-size: 50px;
+    opacity: 50%;
+}
