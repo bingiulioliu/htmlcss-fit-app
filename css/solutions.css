@@ -56,3 +56,12 @@ article:hover {
     border-left: 5px solid green;
     background-color: rgb(232, 254, 232);
 }
+
+/*
+=========================================================
+6. ⚡ Icona fulmine negli esercizi pari
+=========================================================
+*/
+.exercise-item:nth-child(even)::before {
+    content: "⚡";
+}
