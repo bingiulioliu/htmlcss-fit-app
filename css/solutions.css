@@ -14,18 +14,15 @@
 🌟 Evidenziare la terza stat card
 =========================================================
 */
-.stats-grid:last-child * {
+.stats-grid:last-child {
     background: linear-gradient(135deg, #1e90ff, #8e4585);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: white;
-    margin: 0;
-    padding: 0;
 }
-.stats-container:last-child {
-    padding: 0;
+.stats-grid:last-child .stat-number,    /*più nello specifico per il font bianco */
+.stats-grid:last-child .stat-label {
+    color: white;
 }
 /* Dovrebbe togliermi il padding del div (?)
+    OK togliendo l'asterisco */
 
 /*
 =========================================================
@@ -36,7 +33,8 @@
 =========================================================
 📌 Evidenziare il secondo piano allenamento
 =========================================================
-*/
+.workout-plan:nth-child(3)
+*/  
 article:hover {
     background-color: rgb(235, 228, 16) ;
     box-shadow: 5px 5px 5px 5px rgb(172, 112, 1);
@@ -142,7 +140,7 @@ nav a:first-child {
 =========================================================
 */
 .quote-box::before {
-    content: "\201C";
+    content: "\201C";   /* oppure '"' */
     position: absolute;
     left: 0;
     top: 0;
